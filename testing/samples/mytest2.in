@@ -1,0 +1,18 @@
+> init
+<<<
++ bob.txt a.txt
+> add bob.txt
+<<<
+> commit "added bob"
+<<<
++ bill.txt b.txt
+> add bill.txt
+<<<
+> branch b1
+<<<
+> commit "added bill"
+<<<
+> checkout b1
+<<<
+* bill.txt
+= bob.txt a.txt

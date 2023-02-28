@@ -1,0 +1,20 @@
+> init
+<<<
++ bob.txt a.txt
+> add bob.txt
+<<<
+> commit "added bob"
+<<<
++ bill.txt b.txt
+> add bill.txt
+<<<
+> checkout -- wug.txt
+File does not exist in that commit.
+<<<
++ bob.txt b.txt
+> commit "added bill and changed bob"
+<<<
+> checkout -- bob.txt
+<<<
+= bob.txt a.txt
+= bill.txt b.txt

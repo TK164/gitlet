@@ -1,0 +1,24 @@
+> init
+<<<
++ bob.txt a.txt
+> add bob.txt
+<<<
+> commit "added bob"
+<<<
++ bill.txt b.txt
+> add bill.txt
+<<<
+> branch billy
+<<<
+> commit "added bill"
+<<<
+> checkout billy
+<<<
+* bill.txt
+= bob.txt a.txt
+> merge master
+Current branch fast-forwarded.
+<<<
+= bill.txt b.txt
+= bob.txt a.txt
+
